@@ -4,4 +4,9 @@ class Team
 
   # has_many :heros
 
+  def initialize(name, motto)
+    @name = name
+    @motto = motto
+  end
+
 end
