@@ -1,6 +1,7 @@
 class Team
 
   attr_reader :name, :motto
+  @@teams = []
 
   # has_many :heros
 
