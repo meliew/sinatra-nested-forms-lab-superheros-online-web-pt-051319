@@ -2,6 +2,6 @@ class Team
 
   attr_reader :name, :motto
 
-  has_many :heros
-  
+  # has_many :heros
+
 end
