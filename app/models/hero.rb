@@ -4,5 +4,12 @@ class Hero
 
   # belongs_to :team
 
+  @@heros = []
+
+  def initialize(args)
+    @name = args[:name]
+    @power = args[:power]
+    @bio = args[:bio]
+
 
 end
