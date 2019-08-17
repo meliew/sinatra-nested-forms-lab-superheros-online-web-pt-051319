@@ -5,9 +5,10 @@ class Team
 
   # has_many :heros
 
-  def initialize(name, motto)
-    @name = name
-    @motto = motto
+  def initialize(params)
+    @name = params[:name]
+    @motto = params[:motto]
+    @@teams << self
   end
 
 end
