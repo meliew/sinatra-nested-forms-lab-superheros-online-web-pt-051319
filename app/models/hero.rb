@@ -10,11 +10,12 @@ class Hero
     @name = args[:name]
     @power = args[:power]
     @bio = args[:bio]
+    @@heros << self
   end
 
   def self.all
     @@heros
-  end 
+  end
 
 
 end
